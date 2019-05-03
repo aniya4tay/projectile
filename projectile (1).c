@@ -14,8 +14,8 @@ int main(void){
    float vyf=-1*vyi;// Final Vy is equal to negative final Vy
    float vxf= vxi;// Final Vx is equal Final Vy
         float t= vyf/ (vyi+ay);// 
-        printf("Total Distance:%f\n", t);
-       printf("Airtime:%f\n", (float) vxi * t);
+        printf("Airtime:%f\n", t);
+       printf("Total distance:%f\n", (float) vxi * t);
        printf("Max height:%f\n", (float) vyi * (t/2) + (ay/2)* (t/2)*t/2);
     }
     
